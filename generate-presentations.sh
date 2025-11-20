@@ -12,14 +12,14 @@ if ! command -v marp &> /dev/null; then
 fi
 
 echo "🎨 Generating SESSION-1-FINAL.pptx..."
-marp SESSION-1-FINAL.md --pptx --theme accenture-theme.css -o SESSION-1-FINAL.pptx
+marp SESSION-1-FINAL.md --pptx --theme accenture-theme.css --allow-local-files -o SESSION-1-FINAL.pptx
 
 echo "🎨 Generating SESSION-2-FINAL.pptx..."
-marp SESSION-2-FINAL.md --pptx --theme accenture-theme.css -o SESSION-2-FINAL.pptx
+marp SESSION-2-FINAL.md --pptx --theme accenture-theme.css --allow-local-files -o SESSION-2-FINAL.pptx
 
 echo "📄 Generating PDF versions..."
-marp SESSION-1-FINAL.md --pdf --theme accenture-theme.css -o SESSION-1-FINAL.pdf
-marp SESSION-2-FINAL.md --pdf --theme accenture-theme.css -o SESSION-2-FINAL.pdf
+marp SESSION-1-FINAL.md --pdf --theme accenture-theme.css --allow-local-files -o SESSION-1-FINAL.pdf
+marp SESSION-2-FINAL.md --pdf --theme accenture-theme.css --allow-local-files -o SESSION-2-FINAL.pdf
 
 echo "✅ PowerPoint and PDF files generated successfully!"
 echo ""
