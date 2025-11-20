@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1000" height="300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .title-text { font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; fill: #333; }
+      .desc-text { font-family: Arial, sans-serif; font-size: 11px; fill: #666; }
+      .box1 { fill: #E3F2FD; stroke: #2196F3; stroke-width: 2; rx: 8; }
+      .box2 { fill: #F3E5F5; stroke: #9C27B0; stroke-width: 2; rx: 8; }
+      .box3 { fill: #E8F5E8; stroke: #4CAF50; stroke-width: 2; rx: 8; }
+      .box4 { fill: #FFF3E0; stroke: #FF9800; stroke-width: 2; rx: 8; }
+      .box5 { fill: #C8E6C9; stroke: #4CAF50; stroke-width: 2; rx: 8; }
+    </style>
+  </defs>
+  
+  <!-- Title -->
+  <text x="500" y="30" text-anchor="middle" class="title-text">Foundational Patterns (Research-Backed)</text>
+  
+  <!-- Pattern boxes -->
+  <rect x="20" y="60" width="140" height="80" class="box1"/>
+  <text x="90" y="85" text-anchor="middle" class="title-text">📝 Prompt</text>
+  <text x="90" y="105" text-anchor="middle" class="title-text">Challenge</text>
+  <text x="90" y="125" text-anchor="middle" class="desc-text">Start here</text>
+  
+  <!-- Arrow -->
+  <path d="M 170 100 L 200 100" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <rect x="210" y="60" width="140" height="80" class="box2"/>
+  <text x="280" y="80" text-anchor="middle" class="title-text">🎭 Persona</text>
+  <text x="280" y="100" text-anchor="middle" class="desc-text">"You are expert..."</text>
+  <text x="280" y="120" text-anchor="middle" class="desc-text">Specialized knowledge</text>
+  
+  <!-- Arrow -->
+  <path d="M 360 100 L 390 100" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <rect x="400" y="60" width="140" height="80" class="box3"/>
+  <text x="470" y="80" text-anchor="middle" class="title-text">📚 Few-shot</text>
+  <text x="470" y="100" text-anchor="middle" class="desc-text">Example 1, 2, 3...</text>
+  <text x="470" y="120" text-anchor="middle" class="desc-text">Show desired format</text>
+  
+  <!-- Arrow -->
+  <path d="M 550 100 L 580 100" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <rect x="590" y="60" width="140" height="80" class="box4"/>
+  <text x="660" y="80" text-anchor="middle" class="title-text">📋 Template</text>
+  <text x="660" y="100" text-anchor="middle" class="desc-text">Structure output</text>
+  <text x="660" y="120" text-anchor="middle" class="desc-text">Format guidance</text>
+  
+  <!-- Arrow -->
+  <path d="M 740 100 L 770 100" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <rect x="780" y="60" width="140" height="80" class="box1"/>
+  <text x="850" y="80" text-anchor="middle" class="title-text">🧠 Chain-of-</text>
+  <text x="850" y="100" text-anchor="middle" class="title-text">Thought</text>
+  <text x="850" y="120" text-anchor="middle" class="desc-text">Show reasoning</text>
+  
+  <!-- Arrow down -->
+  <path d="M 850 150 L 850 180" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <rect x="780" y="190" width="140" height="60" class="box5"/>
+  <text x="850" y="215" text-anchor="middle" class="title-text">✨ High-Quality</text>
+  <text x="850" y="235" text-anchor="middle" class="title-text">Output</text>
+  
+  <!-- Research citations -->
+  <text x="500" y="280" text-anchor="middle" class="desc-text">Sources: White et al. (2023), Brown et al. (2020), Wei et al. (2022)</text>
+  
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+    </marker>
+  </defs>
+</svg>

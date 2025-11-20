@@ -1,0 +1,513 @@
+/* Accenture Prompt Engineering Bootcamp Theme */
+
+/* Import Accenture brand colors and fonts */
+@import url('https://fonts.googleapis.com/css2?family=Arial:wght@400;600;700&display=swap');
+
+:root {
+  --color-primary: #A100FF;        /* Accenture Purple */
+  --color-secondary: #00A1FF;      /* Accenture Blue */
+  --color-success: #7ED321;        /* Green for success states */
+  --color-warning: #FFB74D;        /* Orange for warnings */
+  --color-danger: #F44336;         /* Red for problems */
+  --color-gray-dark: #333333;      /* Dark text */
+  --color-gray-light: #F5F5F5;     /* Light backgrounds */
+  --color-white: #FFFFFF;          /* Pure white */
+  
+  --font-family-base: 'Arial', 'Helvetica Neue', sans-serif;
+  --font-size-large: 2.5rem;
+  --font-size-medium: 1.8rem;
+  --font-size-small: 1.2rem;
+}
+
+/* Base slide styling */
+section {
+  font-family: var(--font-family-base);
+  background: linear-gradient(135deg, var(--color-white) 0%, var(--color-gray-light) 100%);
+  color: var(--color-gray-dark);
+  font-size: var(--font-size-small);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+/* Accenture logo on every slide */
+section::before {
+  content: '';
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  width: 120px;
+  height: 40px;
+  background-image: url('data:image/svg+xml;charset=utf-8,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60"%3E%3Ctext x="10" y="35" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="%23A100FF"%3EAccenture%3C/text%3E%3Ctext x="10" y="50" font-family="Arial,sans-serif" font-size="8" fill="%23666"%3ELet there be change%3C/text%3E%3C/svg%3E');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 1000;
+}
+
+/* Slide type: Hero/Title slides */
+section.hero {
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
+  color: var(--color-white);
+  text-align: center;
+  justify-content: center;
+  padding: 3rem;
+}
+
+/* Hero slides get white logo for contrast */
+section.hero::before {
+  background-image: url('data:image/svg+xml;charset=utf-8,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60"%3E%3Ctext x="10" y="35" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="%23FFFFFF"%3EAccenture%3C/text%3E%3Ctext x="10" y="50" font-family="Arial,sans-serif" font-size="8" fill="%23E0E0E0"%3ELet there be change%3C/text%3E%3C/svg%3E');
+}
+
+section.hero h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+section.hero p {
+  font-size: 1.4rem;
+  font-style: italic;
+  opacity: 0.9;
+  margin-bottom: 1.5rem;
+}
+
+/* Slide type: Agenda/Schedule */
+section.agenda {
+  background: var(--color-white);
+  border-left: 8px solid var(--color-primary);
+}
+
+section.agenda table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+
+section.agenda th,
+section.agenda td {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid #E0E0E0;
+}
+
+section.agenda th {
+  background: var(--color-gray-light);
+  font-weight: 600;
+  color: var(--color-primary);
+}
+
+section.agenda .lecture-marker {
+  background: rgba(161, 0, 255, 0.1);
+  font-weight: 600;
+}
+
+section.agenda .hands-on-marker {
+  background: rgba(126, 211, 33, 0.1);
+  font-weight: 600;
+  color: var(--color-success);
+}
+
+/* Slide type: Problem identification */
+section.problem {
+  background: linear-gradient(135deg, var(--color-white) 0%, #FFF5F5 100%);
+  border-left: 8px solid var(--color-danger);
+}
+
+section.problem h2 {
+  color: var(--color-danger);
+  font-size: var(--font-size-medium);
+}
+
+section.problem code {
+  background: rgba(244, 67, 54, 0.1);
+  padding: 1rem;
+  border-radius: 8px;
+  display: block;
+  font-family: 'Courier New', monospace;
+  margin: 1rem 0;
+}
+
+section.problem ul li:before {
+  content: '❌';
+  margin-right: 0.5rem;
+}
+
+/* Slide type: Solution presentation */
+section.solution {
+  background: linear-gradient(135deg, var(--color-white) 0%, #F0FFF0 100%);
+  border-left: 8px solid var(--color-success);
+}
+
+section.solution h2 {
+  color: var(--color-success);
+  font-size: var(--font-size-medium);
+}
+
+section.solution ul li:before {
+  content: '✅';
+  margin-right: 0.5rem;
+}
+
+/* Slide type: Theory/Educational content */
+section.theory {
+  background: var(--color-white);
+  border-left: 8px solid var(--color-primary);
+}
+
+section.theory h2 {
+  color: var(--color-primary);
+  font-size: var(--font-size-medium);
+}
+
+section.theory table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  background: var(--color-white);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+section.theory th,
+section.theory td {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid #E0E0E0;
+}
+
+section.theory th {
+  background: var(--color-primary);
+  color: var(--color-white);
+  font-weight: 600;
+}
+
+/* Slide type: Transition slides */
+section.transition {
+  background: linear-gradient(135deg, var(--color-secondary) 0%, var(--color-primary) 100%);
+  color: var(--color-white);
+  text-align: center;
+  justify-content: center;
+}
+
+section.transition h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  margin-bottom: 1rem;
+}
+
+section.transition p {
+  font-size: 1.4rem;
+  opacity: 0.9;
+}
+
+/* Slide type: Live demo sections */
+section.demo,
+section.live-demo {
+  background: linear-gradient(135deg, #FFF9C4 0%, #F0F4C3 100%);
+  border-left: 8px solid var(--color-warning);
+}
+
+section.demo h2,
+section.live-demo h2 {
+  color: #E65100;
+  font-size: var(--font-size-medium);
+}
+
+section.demo .demo-marker,
+section.live-demo .demo-marker {
+  background: var(--color-warning);
+  color: var(--color-white);
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 1rem;
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+/* Slide type: Interactive exercises */
+section.exercise {
+  background: linear-gradient(135deg, #E8F5E8 0%, #C8E6C9 100%);
+  border-left: 8px solid var(--color-success);
+}
+
+section.exercise h2 {
+  color: #2E7D32;
+  font-size: var(--font-size-medium);
+}
+
+section.exercise .exercise-marker {
+  background: var(--color-success);
+  color: var(--color-white);
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 1rem;
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+section.exercise .success-criteria {
+  background: rgba(126, 211, 33, 0.2);
+  padding: 1rem;
+  border-radius: 8px;
+  border-left: 4px solid var(--color-success);
+  margin: 1rem 0;
+}
+
+section.exercise .success-criteria h4 {
+  color: var(--color-success);
+  margin-bottom: 0.5rem;
+}
+
+/* Slide type: Insights and wrap-up */
+section.insights,
+section.wrap {
+  background: linear-gradient(135deg, #F3E5F5 0%, #E1BEE7 100%);
+  border-left: 8px solid var(--color-primary);
+}
+
+section.insights h2,
+section.wrap h2 {
+  color: var(--color-primary);
+  font-size: var(--font-size-medium);
+}
+
+/* Slide type: Integration and next steps */
+section.integration,
+section.next-steps,
+section.resources {
+  background: var(--color-white);
+  border-left: 8px solid var(--color-secondary);
+}
+
+section.integration h2,
+section.next-steps h2,
+section.resources h2 {
+  color: var(--color-secondary);
+  font-size: var(--font-size-medium);
+}
+
+/* Slide type: Recap slides */
+section.recap {
+  background: linear-gradient(135deg, var(--color-gray-light) 0%, #E8EAF6 100%);
+  border-left: 8px solid var(--color-secondary);
+}
+
+section.recap h2 {
+  color: var(--color-secondary);
+  font-size: var(--font-size-medium);
+}
+
+section.recap .checkmark-list li:before {
+  content: '✅';
+  margin-right: 0.5rem;
+}
+
+/* Slide type: Preview slides */
+section.preview {
+  background: linear-gradient(135deg, #FFF3E0 0%, #FFE0B2 100%);
+  border-left: 8px solid #FF9800;
+}
+
+section.preview h2 {
+  color: #F57C00;
+  font-size: var(--font-size-medium);
+}
+
+/* Common elements */
+h1 {
+  font-size: var(--font-size-large);
+  font-weight: 700;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: var(--font-size-medium);
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  line-height: 1.3;
+}
+
+h3 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: var(--color-primary);
+}
+
+p {
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+ul, ol {
+  margin-bottom: 1.5rem;
+  padding-left: 0;
+}
+
+li {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+  list-style: none;
+}
+
+/* Code blocks */
+code {
+  background: #F5F5F5;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-family: 'Courier New', monospace;
+  font-size: 0.9rem;
+}
+
+pre {
+  background: #F5F5F5;
+  padding: 1rem;
+  border-radius: 8px;
+  overflow-x: auto;
+  margin: 1rem 0;
+}
+
+pre code {
+  background: none;
+  padding: 0;
+}
+
+/* Tables */
+table {
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  width: 100%;
+  background: var(--color-white);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid #E0E0E0;
+}
+
+th {
+  background: var(--color-gray-light);
+  font-weight: 600;
+  color: var(--color-gray-dark);
+}
+
+/* Emphasis and highlighting */
+strong {
+  font-weight: 600;
+  color: var(--color-primary);
+}
+
+em {
+  font-style: italic;
+  color: var(--color-secondary);
+}
+
+/* Timing markers */
+.timing-marker {
+  background: var(--color-primary);
+  color: var(--color-white);
+  padding: 0.25rem 0.75rem;
+  border-radius: 15px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  display: inline-block;
+  margin-left: 1rem;
+}
+
+/* Activity type markers */
+.lecture-type:before {
+  content: '📊 ';
+  font-size: 1.2rem;
+}
+
+.hands-on-type:before {
+  content: '🔴 ';
+  font-size: 1.2rem;
+}
+
+.demo-type:before {
+  content: '🎯 ';
+  font-size: 1.2rem;
+}
+
+/* Footer */
+footer {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  font-size: 0.8rem;
+  color: #666;
+}
+
+/* Page numbers */
+section::after {
+  position: absolute;
+  bottom: 1rem;
+  right: 2rem;
+  font-size: 0.8rem;
+  color: var(--color-gray-dark);
+}
+
+/* Print styles */
+@media print {
+  section {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+  
+  .no-print {
+    display: none;
+  }
+  
+  /* Keep logo in print */
+  section::before {
+    width: 80px;
+    height: 26px;
+  }
+}
+
+/* Responsive logo sizing */
+@media (max-width: 768px) {
+  section::before {
+    width: 90px;
+    height: 30px;
+    top: 15px;
+    right: 20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  section::before {
+    width: 140px;
+    height: 46px;
+    top: 25px;
+    right: 40px;
+  }
+}
+
+/* Accessibility improvements */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Focus styles for keyboard navigation */
+*:focus {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}

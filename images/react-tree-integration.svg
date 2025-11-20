@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="700" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .title-text { font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; fill: #333; }
+      .desc-text { font-family: Arial, sans-serif; font-size: 11px; fill: #666; }
+      .react-box { fill: #E3F2FD; stroke: #2196F3; stroke-width: 2; rx: 8; }
+      .tree-box { fill: #E8F5E8; stroke: #4CAF50; stroke-width: 2; rx: 8; }
+      .eval-box { fill: #FFF3E0; stroke: #FF9800; stroke-width: 2; rx: 8; }
+      .result-box { fill: #C8E6C9; stroke: #4CAF50; stroke-width: 2; rx: 8; }
+    </style>
+  </defs>
+  
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" class="title-text">Pattern Integration: Interview Strategy Example</text>
+  
+  <!-- Job Requirements -->
+  <rect x="320" y="50" width="160" height="50" fill="#f5f5f5" stroke="#333" stroke-width="1" rx="4"/>
+  <text x="400" y="70" text-anchor="middle" class="title-text">📋 Job Requirements</text>
+  <text x="400" y="85" text-anchor="middle" class="desc-text">Starting point</text>
+  
+  <!-- Arrow down -->
+  <path d="M 400 110 L 400 140" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- ReAct Analysis -->
+  <rect x="300" y="150" width="200" height="60" class="react-box"/>
+  <text x="400" y="175" text-anchor="middle" class="title-text">🔄 ReAct Analysis</text>
+  <text x="400" y="195" text-anchor="middle" class="desc-text">Think → Act → Observe</text>
+  
+  <!-- ReAct steps -->
+  <rect x="50" y="240" width="150" height="50" class="react-box"/>
+  <text x="125" y="260" text-anchor="middle" class="title-text">💭 THINK:</text>
+  <text x="125" y="280" text-anchor="middle" class="desc-text">Gap analysis</text>
+  
+  <rect x="250" y="240" width="150" height="50" class="react-box"/>
+  <text x="325" y="260" text-anchor="middle" class="title-text">⚡ ACT:</text>
+  <text x="325" y="280" text-anchor="middle" class="desc-text">Map experience</text>
+  
+  <rect x="450" y="240" width="150" height="50" class="react-box"/>
+  <text x="525" y="260" text-anchor="middle" class="title-text">👁️ OBSERVE:</text>
+  <text x="525" y="280" text-anchor="middle" class="desc-text">Identify patterns</text>
+  
+  <!-- Arrows between ReAct steps -->
+  <path d="M 200 265 L 240 265" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M 400 265 L 440 265" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Arrow to Tree of Thoughts -->
+  <path d="M 400 220 L 400 240" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M 525 300 L 525 330 L 400 330 L 400 350" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Tree of Thoughts -->
+  <rect x="300" y="360" width="200" height="60" class="tree-box"/>
+  <text x="400" y="385" text-anchor="middle" class="title-text">🌳 Tree of Thoughts</text>
+  <text x="400" y="405" text-anchor="middle" class="desc-text">Generate → Evaluate → Choose</text>
+  
+  <!-- Three branches -->
+  <rect x="50" y="450" width="180" height="70" class="tree-box"/>
+  <text x="140" y="470" text-anchor="middle" class="title-text">🌿 Branch A:</text>
+  <text x="140" y="490" text-anchor="middle" class="title-text">Technical Expert</text>
+  <text x="140" y="510" text-anchor="middle" class="desc-text">Emphasize depth</text>
+  
+  <rect x="310" y="450" width="180" height="70" class="tree-box"/>
+  <text x="400" y="470" text-anchor="middle" class="title-text">🌿 Branch B:</text>
+  <text x="400" y="490" text-anchor="middle" class="title-text">Strategic Leader</text>
+  <text x="400" y="510" text-anchor="middle" class="desc-text">Business impact</text>
+  
+  <rect x="570" y="450" width="180" height="70" class="tree-box"/>
+  <text x="660" y="470" text-anchor="middle" class="title-text">🌿 Branch C:</text>
+  <text x="660" y="490" text-anchor="middle" class="title-text">Bridge Role</text>
+  <text x="660" y="510" text-anchor="middle" class="desc-text">Combined approach</text>
+  
+  <!-- Arrows from branches to evaluation -->
+  <path d="M 140 530 L 140 560 L 340 560" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M 400 530 L 400 560" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M 660 530 L 660 560 L 460 560" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Evaluation -->
+  <rect x="300" y="570" width="200" height="50" class="eval-box"/>
+  <text x="400" y="590" text-anchor="middle" class="title-text">⚖️ Evaluate Tradeoffs</text>
+  <text x="400" y="610" text-anchor="middle" class="desc-text">Compare pros/cons</text>
+  
+  <!-- Arrow to decision -->
+  <path d="M 400 630 L 400 660" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Final outputs -->
+  <rect x="200" y="670" width="150" height="50" class="result-box"/>
+  <text x="275" y="690" text-anchor="middle" class="title-text">✅ Selected</text>
+  <text x="275" y="710" text-anchor="middle" class="title-text">Strategy</text>
+  
+  <rect x="450" y="670" width="150" height="50" class="result-box"/>
+  <text x="525" y="690" text-anchor="middle" class="title-text">📄 Interview</text>
+  <text x="525" y="710" text-anchor="middle" class="title-text">Materials</text>
+  
+  <!-- Arrow from decision to outputs -->
+  <path d="M 370 695 L 350 695" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M 430 695 L 450 695" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+    </marker>
+  </defs>
+</svg>

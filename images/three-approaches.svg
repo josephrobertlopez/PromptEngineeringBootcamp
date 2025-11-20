@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .title-text { font-family: Arial, sans-serif; font-size: 16px; font-weight: bold; fill: #333; }
+      .desc-text { font-family: Arial, sans-serif; font-size: 12px; fill: #666; }
+      .green-box { fill: #C8E6C9; stroke: #4CAF50; stroke-width: 2; rx: 8; }
+      .orange-box { fill: #FFE0B2; stroke: #FF9800; stroke-width: 2; rx: 8; }
+      .yellow-box { fill: #FFF9C4; stroke: #FFC107; stroke-width: 2; rx: 8; }
+      .purple-box { fill: #E1BEE7; stroke: #9C27B0; stroke-width: 2; rx: 8; }
+    </style>
+  </defs>
+  
+  <!-- Title -->
+  <text x="600" y="30" text-anchor="middle" class="title-text">Three Approaches Framework</text>
+  
+  <!-- Starting point -->
+  <rect x="500" y="60" width="200" height="60" class="purple-box"/>
+  <text x="600" y="85" text-anchor="middle" class="title-text">🎯 Complex Task</text>
+  <text x="600" y="105" text-anchor="middle" class="desc-text">Choose Approach</text>
+  
+  <!-- Arrow down -->
+  <path d="M 600 130 L 600 160" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Three approaches -->
+  <rect x="50" y="180" width="280" height="120" class="green-box"/>
+  <text x="190" y="205" text-anchor="middle" class="title-text">🟢 ADRs + Config</text>
+  <text x="190" y="225" text-anchor="middle" class="desc-text">✓ Low maintenance</text>
+  <text x="190" y="245" text-anchor="middle" class="desc-text">✓ Cross-IDE</text>
+  <text x="190" y="265" text-anchor="middle" class="desc-text">✓ Tier 1 proven</text>
+  <text x="190" y="285" text-anchor="middle" class="desc-text">Most teams, simple tasks</text>
+  
+  <rect x="460" y="180" width="280" height="120" class="orange-box"/>
+  <text x="600" y="205" text-anchor="middle" class="title-text">🟠 Structured Files</text>
+  <text x="600" y="225" text-anchor="middle" class="desc-text">✓ Explicit patterns</text>
+  <text x="600" y="245" text-anchor="middle" class="desc-text">✓ Audit trail</text>
+  <text x="600" y="265" text-anchor="middle" class="desc-text">✓ Educational</text>
+  <text x="600" y="285" text-anchor="middle" class="desc-text">Learning, complex tasks</text>
+  
+  <rect x="870" y="180" width="280" height="120" class="yellow-box"/>
+  <text x="1010" y="205" text-anchor="middle" class="title-text">🟡 Tool-Assisted</text>
+  <text x="1010" y="225" text-anchor="middle" class="desc-text">✓ Built-in workflows</text>
+  <text x="1010" y="245" text-anchor="middle" class="desc-text">✓ Platform integrated</text>
+  <text x="1010" y="265" text-anchor="middle" class="desc-text">✓ Automated validation</text>
+  <text x="1010" y="285" text-anchor="middle" class="desc-text">IDE-committed teams</text>
+  
+  <!-- Arrows to results -->
+  <path d="M 190 310 L 190 350" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M 600 310 L 600 350" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M 1010 310 L 1010 350" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Results -->
+  <rect x="50" y="360" width="280" height="80" fill="#f5f5f5" stroke="#333" stroke-width="1" rx="4"/>
+  <text x="190" y="385" text-anchor="middle" class="title-text">📄 .github/copilot-instructions.md</text>
+  <text x="190" y="405" text-anchor="middle" class="desc-text">Quick prompts referencing ADRs</text>
+  <text x="190" y="425" text-anchor="middle" class="desc-text">Example: Spring migration standards</text>
+  
+  <rect x="460" y="360" width="280" height="80" fill="#f5f5f5" stroke="#333" stroke-width="1" rx="4"/>
+  <text x="600" y="385" text-anchor="middle" class="title-text">📁 Priority Builder (325 lines)</text>
+  <text x="600" y="405" text-anchor="middle" class="desc-text">Systematic methodology</text>
+  <text x="600" y="425" text-anchor="middle" class="desc-text">ABCD reflection framework</text>
+  
+  <rect x="870" y="360" width="280" height="80" fill="#f5f5f5" stroke="#333" stroke-width="1" rx="4"/>
+  <text x="1010" y="385" text-anchor="middle" class="title-text">⚙️ Windsurf workflows</text>
+  <text x="1010" y="405" text-anchor="middle" class="desc-text">Guided execution</text>
+  <text x="1010" y="425" text-anchor="middle" class="desc-text">290-line cascade workflow</text>
+  
+  <!-- Key insight -->
+  <text x="600" y="500" text-anchor="middle" class="title-text">Key Insight: Patterns matter more than format. Choose based on team context, not dogma.</text>
+  
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+    </marker>
+  </defs>
+</svg>

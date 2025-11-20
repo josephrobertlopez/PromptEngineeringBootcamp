@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="900" height="500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .title-text { font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; fill: #333; }
+      .desc-text { font-family: Arial, sans-serif; font-size: 11px; fill: #666; }
+      .patterns-box { fill: #E1BEE7; stroke: #9C27B0; stroke-width: 2; rx: 8; }
+      .business-box { fill: #E8F5E8; stroke: #4CAF50; stroke-width: 2; rx: 8; }
+      .tech-box { fill: #E3F2FD; stroke: #2196F3; stroke-width: 2; rx: 8; }
+    </style>
+  </defs>
+  
+  <!-- Title -->
+  <text x="450" y="30" text-anchor="middle" class="title-text">Cross-Domain Pattern Recognition</text>
+  
+  <!-- Universal Patterns (Center) -->
+  <rect x="350" y="60" width="200" height="120" class="patterns-box"/>
+  <text x="450" y="85" text-anchor="middle" class="title-text">🔄 Universal Patterns</text>
+  <text x="450" y="110" text-anchor="middle" class="desc-text">ReAct: Think→Act→Observe</text>
+  <text x="450" y="130" text-anchor="middle" class="desc-text">Tree of Thoughts: Generate→Evaluate→Choose</text>
+  <text x="450" y="150" text-anchor="middle" class="desc-text">Spec-Kit: Knowledge→Spec→Implementation</text>
+  <text x="450" y="170" text-anchor="middle" class="desc-text">Same cognitive patterns across domains</text>
+  
+  <!-- Business Domain (Left) -->
+  <rect x="50" y="250" width="300" height="200" class="business-box"/>
+  <text x="200" y="275" text-anchor="middle" class="title-text">💼 Business Domain</text>
+  
+  <!-- FY26 Priorities -->
+  <rect x="70" y="290" width="120" height="70" fill="white" stroke="#4CAF50" stroke-width="1" rx="4"/>
+  <text x="130" y="310" text-anchor="middle" class="title-text">FY26 Priorities</text>
+  <text x="130" y="325" text-anchor="middle" class="desc-text">Think about impact</text>
+  <text x="130" y="340" text-anchor="middle" class="desc-text">Document goals</text>
+  <text x="130" y="355" text-anchor="middle" class="desc-text">Validate metrics</text>
+  
+  <!-- Interview Prep -->
+  <rect x="210" y="290" width="120" height="70" fill="white" stroke="#4CAF50" stroke-width="1" rx="4"/>
+  <text x="270" y="310" text-anchor="middle" class="title-text">Interview Prep</text>
+  <text x="270" y="325" text-anchor="middle" class="desc-text">Analyze requirements</text>
+  <text x="270" y="340" text-anchor="middle" class="desc-text">Map experience</text>
+  <text x="270" y="355" text-anchor="middle" class="desc-text">Position strategically</text>
+  
+  <!-- Strategic Planning -->
+  <rect x="70" y="370" width="120" height="70" fill="white" stroke="#4CAF50" stroke-width="1" rx="4"/>
+  <text x="130" y="390" text-anchor="middle" class="title-text">Strategic Planning</text>
+  <text x="130" y="405" text-anchor="middle" class="desc-text">Evaluate options</text>
+  <text x="130" y="420" text-anchor="middle" class="desc-text">Document decisions</text>
+  <text x="130" y="435" text-anchor="middle" class="desc-text">Plan execution</text>
+  
+  <!-- Client Proposals -->
+  <rect x="210" y="370" width="120" height="70" fill="white" stroke="#4CAF50" stroke-width="1" rx="4"/>
+  <text x="270" y="390" text-anchor="middle" class="title-text">Client Proposals</text>
+  <text x="270" y="405" text-anchor="middle" class="desc-text">Understand needs</text>
+  <text x="270" y="420" text-anchor="middle" class="desc-text">Craft solution</text>
+  <text x="270" y="435" text-anchor="middle" class="desc-text">Present value</text>
+  
+  <!-- Technical Domain (Right) -->
+  <rect x="550" y="250" width="300" height="200" class="tech-box"/>
+  <text x="700" y="275" text-anchor="middle" class="title-text">⚙️ Technical Domain</text>
+  
+  <!-- Spring Migration -->
+  <rect x="570" y="290" width="120" height="70" fill="white" stroke="#2196F3" stroke-width="1" rx="4"/>
+  <text x="630" y="310" text-anchor="middle" class="title-text">Spring Migration</text>
+  <text x="630" y="325" text-anchor="middle" class="desc-text">Think dependencies</text>
+  <text x="630" y="340" text-anchor="middle" class="desc-text">Update imports</text>
+  <text x="630" y="355" text-anchor="middle" class="desc-text">Validate compilation</text>
+  
+  <!-- System Design -->
+  <rect x="710" y="290" width="120" height="70" fill="white" stroke="#2196F3" stroke-width="1" rx="4"/>
+  <text x="770" y="310" text-anchor="middle" class="title-text">System Design</text>
+  <text x="770" y="325" text-anchor="middle" class="desc-text">Evaluate options</text>
+  <text x="770" y="340" text-anchor="middle" class="desc-text">Document decisions</text>
+  <text x="770" y="355" text-anchor="middle" class="desc-text">Plan implementation</text>
+  
+  <!-- Code Generation -->
+  <rect x="570" y="370" width="120" height="70" fill="white" stroke="#2196F3" stroke-width="1" rx="4"/>
+  <text x="630" y="390" text-anchor="middle" class="title-text">Code Generation</text>
+  <text x="630" y="405" text-anchor="middle" class="desc-text">Analyze requirements</text>
+  <text x="630" y="420" text-anchor="middle" class="desc-text">Generate solution</text>
+  <text x="630" y="435" text-anchor="middle" class="desc-text">Test and refine</text>
+  
+  <!-- Architecture Docs -->
+  <rect x="710" y="370" width="120" height="70" fill="white" stroke="#2196F3" stroke-width="1" rx="4"/>
+  <text x="770" y="390" text-anchor="middle" class="title-text">Architecture Docs</text>
+  <text x="770" y="405" text-anchor="middle" class="desc-text">Define scope</text>
+  <text x="770" y="420" text-anchor="middle" class="desc-text">Detail approach</text>
+  <text x="770" y="435" text-anchor="middle" class="desc-text">Specify outcomes</text>
+  
+  <!-- Arrows from center to domains -->
+  <path d="M 350 120 L 200 200 L 200 240" stroke="#333" stroke-width="3" marker-end="url(#arrowhead)"/>
+  <path d="M 550 120 L 700 200 L 700 240" stroke="#333" stroke-width="3" marker-end="url(#arrowhead)"/>
+  
+  <!-- Key insight -->
+  <text x="450" y="480" text-anchor="middle" class="title-text">Key insight: Same cognitive patterns, different domain application</text>
+  
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+    </marker>
+  </defs>
+</svg>
