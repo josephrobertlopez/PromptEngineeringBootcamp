@@ -173,7 +173,7 @@ I'll demonstrate a **325-line Priority Builder Agent** that uses all 4 foundatio
 4. **Select version**: Conservative, Balanced, or Aspirational
 5. **Export CSV**: Get production-ready format
 
-**Success criteria**: Complete ABCD reflections + CSV output ready for Workday
+**Success criteria**: Complete ABCD reflections + CSV output ready for submission
 
 ---
 

@@ -160,7 +160,7 @@
 39:00 - "How would Tech Lead measure success differently than Delivery Lead?"
 40:00 - Watch for systematic vs ad-hoc differences emerging
 42:00 - "Generate your priority - pick Conservative, Balanced, or Aspirational"
-44:00 - "Anyone getting CSV output? That's ready for Workday submission"
+44:00 - "Anyone getting CSV output? That's ready for HR system submission"
 46:00 - Celebrate successes: "Show of hands who got specific metrics"
 48:00 - Quick sharing: "What's one metric you wouldn't have thought of?"
 50:00 - Transition: "Let's compare the three approaches"

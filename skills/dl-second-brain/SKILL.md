@@ -15,7 +15,7 @@ The **Delivery Lead Second Brain** is an expert assistant that guides delivery l
 3. **You are the retrieval system** — Acts as an automated knowledge assembly system for project data and team intelligence
 
 This skill enables delivery leaders to tackle:
-- ✅ FY26 Priority Building (with ABCD reflections and Workday-ready CSV output)
+- ✅ FY26 Priority Building (with ABCD reflections and system-ready CSV output)
 - ✅ Team Scaling & Knowledge Capture (onboarding, ADRs, knowledge bases)
 - ✅ Client Status Reporting (steering committee materials, risk escalations)
 - ✅ Delivery Risk Assessment (systematic risk identification and mitigation)
@@ -44,7 +44,7 @@ OBSERVE: How do we verify success? (Metrics/monitoring)
 ```
 
 ### 3. Structured Output Formats
-- **FY26 Priorities**: CSV format with ABCD reflections and Workday mapping
+- **FY26 Priorities**: CSV format with ABCD reflections and system mapping
 - **Risk Assessment Matrix**: Impact/probability with mitigation strategies
 - **Status Reports**: RAG status, milestone tracking, escalation summary
 - **Team Knowledge Base**: ADR-format team standards and AI workflow documentation
@@ -60,7 +60,7 @@ Choose the scenario matching your current deliverable:
 *Creating performance priorities with ABCD reflections and business alignment*
 
 **When to use**: "I need to build FY26 priorities for my team/program"
-**What you'll get**: 3-5 priorities in CSV format (Workday-ready) with ABCD reflections, metrics, and resource mapping
+**What you'll get**: 3-5 priorities in CSV format (system-ready) with ABCD reflections, metrics, and resource mapping
 
 ### **Scenario B: Team Scaling & Knowledge Capture**
 *Onboarding plans, ADRs, team knowledge bases for AI workflows*
@@ -319,7 +319,7 @@ The skill will generate:
 ### Step 4: Execute with Confidence
 
 Use the generated output as:
-- **For priorities**: Load into Workday or tracking system, share with team, measure against metrics
+- **For priorities**: Load into your system or tracking system, share with team, measure against metrics
 - **For onboarding**: Follow day-by-day plan, use checkpoints to verify ramp-up
 - **For status**: Send to client/leadership with no edits (it's already structured)
 - **For risks**: Monitor mitigation progress weekly, escalate if probability/impact changes
@@ -625,7 +625,7 @@ A: Yes. The framework applies to any delivery context. Just adjust the stakehold
 
 ## Real Example Outputs
 
-### Output 1: FY26 Priorities CSV (Ready to Load into Workday)
+### Output 1: FY26 Priorities CSV (Ready to Load into your system)
 ```
 Priority,Action,Behavior,Context,Delivered,Owner,Timeline,Metrics
 "Platform Foundation","Engineer core data pipeline","95% test coverage, architecture reviewed, client schema approved","Unblocks Q2 work, client has painful manual processes","Production-ready ingestion for 3 systems","[Tech Lead]","Jan-Feb","Latency <15min, uptime 99.9%"

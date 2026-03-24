@@ -442,7 +442,7 @@ This is the payoff. Read slowly. Pause after "You built a RAG system." Give the 
 ### **Facilitator Script**:
 ```
 80:00 - "This methodology — systematic context assembly"
-80:30 - "Was applied at scale on Capital One OneStream Convergence"
+80:30 - "Was applied at scale on a Fortune 500 platform consolidation"
 81:00 - "66% faster delivery"
 81:30 - "37.9x ROI"
 82:00 - "1,182 hours saved"

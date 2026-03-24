@@ -32,4 +32,4 @@ Shorter path to first real output = higher completion. Core curriculum only at l
 - Landing page: http://104.231.198.34:60082/
 
 ## Proven Results (Same Methodology)
-Capital One OneStream Convergence: 66% faster delivery, 37.9x ROI, 1,182 hours saved across 1,000+ migrations.
+a Fortune 500 platform consolidation: 66% faster delivery, 37.9x ROI, 1,182 hours saved across 1,000+ migrations.

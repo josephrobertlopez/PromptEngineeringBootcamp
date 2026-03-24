@@ -276,7 +276,7 @@ You now have:
 
 ## Real Results
 
-This methodology — systematic context assembly with structured patterns — was applied at scale on the **Capital One OneStream Convergence** program:
+This methodology — systematic context assembly with structured patterns — was applied at scale on the **a Fortune 500 platform consolidation** program:
 
 - **66% faster** migration delivery
 - **37.9x ROI** ($4,680 invested → $177,000 saved)

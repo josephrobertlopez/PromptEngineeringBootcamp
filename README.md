@@ -65,7 +65,7 @@ open SESSION-1.html
 ## 🎯 **WORKSHOP OUTCOMES**
 
 ### **Session 1: Industry Standards (60 minutes)**
-**Deliverable**: Actual FY26 priorities ready for Workday submission
+**Deliverable**: Actual FY26 priorities ready for HR system submission
 - ✅ Participants understand Three Approaches Framework (when to use each)
 - ✅ Recognize foundational patterns in real prompts (Persona, Few-shot, Template, Chain-of-Thought)
 - ✅ Generate production-ready priorities using systematic Priority Builder

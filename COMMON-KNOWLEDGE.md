@@ -128,7 +128,7 @@ Write FY26 priority for AI Enablement:
 - Description: 50-100 words, specific deliverables
 - Metrics: AI Tool Usage, Innovation Impact, Knowledge Sharing
 - ABCD Reflection: all four components with evidence
-- Format: Ready for Workday submission
+- Format: Ready for HR system submission
 ```
 
 Compare the outputs. Same information. Different structure.
@@ -297,6 +297,6 @@ In the live session, you'll:
 
 You'll leave with an installed tool and the ability to create more.
 
-This methodology—context-first thinking with structured AI integration—delivered 66% faster delivery and 37.9x ROI on Capital One's OneStream Convergence program across 1,000+ production migrations.
+This methodology—context-first thinking with structured AI integration—delivered 66% faster delivery and 37.9x ROI on a Fortune 500 client's platform consolidation Convergence program across 1,000+ production migrations.
 
 See you at the session.

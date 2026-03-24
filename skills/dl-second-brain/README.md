@@ -60,7 +60,7 @@ Priority,Action,Behavior,Context,Delivered,Owner,Timeline,Metrics
 "Q1 Platform","Build data pipeline","95% test coverage","Unblocks Q2 work","Production-ready","[Name]","Jan-Feb","<15min latency"
 ```
 
-✅ Ready to load into Workday
+✅ Ready to load into your system
 ✅ Steering committee-ready
 ✅ Team can execute against it
 
@@ -202,7 +202,7 @@ A: Check against three criteria:
 
 ## Example Outputs
 
-### Priority CSV (Ready for Workday)
+### Priority CSV (Ready for HR system)
 See SKILL.md → Example section for full real example showing $2.3M project with 5 priorities mapped to Q1-Q3
 
 ### Risk Matrix (Ready for Steering)
