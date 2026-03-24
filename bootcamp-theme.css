@@ -1,11 +1,11 @@
-/* Accenture Prompt Engineering Bootcamp Theme */
+/* Prompt Engineering Bootcamp Theme */
 
-/* Import Accenture brand colors and fonts */
+/* Import brand colors and fonts */
 @import url('https://fonts.googleapis.com/css2?family=Arial:wght@400;600;700&display=swap');
 
 :root {
-  --color-primary: #A100FF;        /* Accenture Purple */
-  --color-secondary: #00A1FF;      /* Accenture Blue */
+  --color-primary: #A100FF;        /* Primary Purple */
+  --color-secondary: #00A1FF;      /* Primary Blue */
   --color-success: #7ED321;        /* Green for success states */
   --color-warning: #FFB74D;        /* Orange for warnings */
   --color-danger: #F44336;         /* Red for problems */
@@ -32,7 +32,7 @@ section {
   position: relative;
 }
 
-/* Accenture logo on every slide */
+/* logo on every slide */
 section::before {
   content: '';
   position: absolute;
@@ -40,7 +40,7 @@ section::before {
   right: 30px;
   width: 120px;
   height: 40px;
-  background-image: url('data:image/svg+xml;charset=utf-8,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60"%3E%3Ctext x="10" y="35" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="%23A100FF"%3EAccenture%3C/text%3E%3Ctext x="10" y="50" font-family="Arial,sans-serif" font-size="8" fill="%23666"%3ELet there be change%3C/text%3E%3C/svg%3E');
+  background-image: url('data:image/svg+xml;charset=utf-8,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60"%3E%3Ctext x="10" y="35" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="%23A100FF"%3Ethe organization%3C/text%3E%3Ctext x="10" y="50" font-family="Arial,sans-serif" font-size="8" fill="%23666"%3EPrompt Engineering Bootcamp%3C/text%3E%3C/svg%3E');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -58,7 +58,7 @@ section.hero {
 
 /* Hero slides get white logo for contrast */
 section.hero::before {
-  background-image: url('data:image/svg+xml;charset=utf-8,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60"%3E%3Ctext x="10" y="35" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="%23FFFFFF"%3EAccenture%3C/text%3E%3Ctext x="10" y="50" font-family="Arial,sans-serif" font-size="8" fill="%23E0E0E0"%3ELet there be change%3C/text%3E%3C/svg%3E');
+  background-image: url('data:image/svg+xml;charset=utf-8,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60"%3E%3Ctext x="10" y="35" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="%23FFFFFF"%3Ethe organization%3C/text%3E%3Ctext x="10" y="50" font-family="Arial,sans-serif" font-size="8" fill="%23E0E0E0"%3EPrompt Engineering Bootcamp%3C/text%3E%3C/svg%3E');
 }
 
 section.hero h1 {

@@ -104,4 +104,4 @@ execution.md → Generated materials
 
 ---
 
-*© Accenture - Prompt Engineering Bootcamp*
+*© Joey Lopez - Prompt Engineering Bootcamp*

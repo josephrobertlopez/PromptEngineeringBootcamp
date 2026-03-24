@@ -32,7 +32,7 @@ Lead enterprise AI strategy development and oversee implementation of AI solutio
 ### Preferred Qualifications
 - MBA from top-tier business school
 - Experience with machine learning, natural language processing, or computer vision
-- Previous consulting experience (McKinsey, BCG, Bain, Accenture, Deloitte)
+- Previous consulting experience (McKinsey, BCG, Bain, the organization, Deloitte)
 - Published thought leadership in AI/digital transformation
 - Industry certifications in cloud platforms (AWS, Azure, GCP)
 

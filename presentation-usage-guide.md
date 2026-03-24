@@ -10,12 +10,12 @@ unzip prompt-engineering-bootcamp-FINAL.zip
 # OPTION A: Generate PowerPoint + PDF (RECOMMENDED)
 chmod +x generate-presentations.sh
 ./generate-presentations.sh
-# Creates .pptx and .pdf files with Accenture branding
+# Creates .pptx and .pdf files with professional branding
 
 # OPTION B: Generate HTML only
 npm install -g @marp-team/marp-cli
-marp SESSION-1-FINAL.md --html --theme accenture-theme.css -o SESSION-1.html
-marp SESSION-2-FINAL.md --html --theme accenture-theme.css -o SESSION-2.html
+marp SESSION-1-FINAL.md --html --theme bootcamp-theme.css -o SESSION-1.html
+marp SESSION-2-FINAL.md --html --theme bootcamp-theme.css -o SESSION-2.html
 ```
 
 ### 2. **Present**
@@ -53,7 +53,7 @@ open SESSION-1.html         # F11 fullscreen, arrow keys to navigate
 your-workshop-folder/
 ├── SESSION-1-FINAL.html           # Generated presentations
 ├── SESSION-2-FINAL.html           
-├── accenture-theme.css             # Professional styling
+├── bootcamp-theme.css             # Professional styling
 ├── images/                         # Reliable SVG diagrams
 │   ├── three-approaches.svg        # Decision framework
 │   ├── foundational-patterns.svg   # Pattern progression  
@@ -67,7 +67,7 @@ your-workshop-folder/
 
 ## 🎨 **Professional Branding Features**
 
-### **Accenture Logo Integration**
+### **the organization Logo Integration**
 - **Automatic logo** appears on every slide in top-right corner
 - **White logo** on hero slides (purple background) for contrast
 - **Purple logo** on content slides for brand consistency  
@@ -159,7 +159,7 @@ your-workshop-folder/
 ## 🎉 **You're Ready!**
 
 **Professional presentation** with:
-- ✅ **Accenture branding** on every slide
+- ✅ **professional branding** on every slide
 - ✅ **PowerPoint compatibility** via generate-presentations.sh script
 - ✅ **Reliable diagrams** that display in any environment  
 - ✅ **Professional styling** with corporate color scheme

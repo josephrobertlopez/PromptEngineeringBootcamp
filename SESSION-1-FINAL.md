@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: accenture-theme
+theme: bootcamp-theme
 paginate: true
 headingDivider: 2
 html: true
@@ -132,7 +132,7 @@ Professional: "Still missing key metrics..."
 
 I'll demonstrate a **325-line Priority Builder Agent** that uses all 4 foundational patterns:
 
-- 🎭 **Persona**: "You are an expert career coach specializing in Accenture priorities..."
+- 🎭 **Persona**: "You are an expert career coach specializing in professional priorities..."
 - 📚 **Few-shot**: Built-in priority examples and ABCD reflections  
 - 📋 **Template**: Structured CSV output + formatted summaries
 - 🧠 **Chain-of-Thought**: ABCD reflection framework

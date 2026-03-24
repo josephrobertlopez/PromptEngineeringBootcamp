@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: accenture-theme
+theme: bootcamp-theme
 paginate: true
 headingDivider: 2
 html: true

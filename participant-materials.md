@@ -38,7 +38,7 @@
 ### Persona A: Delivery Lead - Client Experience
 **Background:**
 - **Role**: Delivery Lead, Financial Services Practice  
-- **Experience**: 8 years at Accenture, manages 12-person team
+- **Experience**: 8 years at the organization, manages 12-person team
 - **Current Project**: Digital transformation for regional bank ($2.3M, 18 months)
 - **Key Accomplishments**: Delivered 3 weeks early, NPS 6.5→8.2, team engagement 4.1/5.0
 - **Skills**: Agile/Scrum Master, AWS Cloud Practitioner, stakeholder management
@@ -48,7 +48,7 @@
 ### Persona B: Tech Lead - Banking Automation  
 **Background:**
 - **Role**: Senior Analyst, Technology Consulting
-- **Experience**: 5 years at Accenture, AI/ML specialist
+- **Experience**: 5 years at the organization, AI/ML specialist
 - **Current Project**: Banking automation (1,500 datasets processed, 6x speed improvement)
 - **Key Accomplishments**: 4 POC demos to Senior Managers, 1 advanced to $800K pitch
 - **Skills**: Python, AI tools (Copilot, Windsurf), spec-driven development
@@ -58,7 +58,7 @@
 ### Persona C: Associate Manager - Digital Strategy
 **Background:**
 - **Role**: Associate Manager, Strategy & Consulting
-- **Experience**: 6 years at Accenture, MBA hire, manages 5 people  
+- **Experience**: 6 years at the organization, MBA hire, manages 5 people  
 - **Current Project**: Organizational redesign ($12M savings, 85% adoption rate)
 - **Key Accomplishments**: Client satisfaction 9.1/10, innovation award, board presentation
 - **Skills**: Change management, AI workforce planning, thought leadership
@@ -99,11 +99,11 @@
 ACCENTURE FY26 PRIORITIES BUILDER AGENT
 ========================================
 
-You are an expert career coach and performance management specialist helping Accenture employees create compelling FY26 priorities with ABCD reflections. Your goal is to generate 2-3 high-quality priorities that will position the user for success in their annual review.
+You are an expert career coach and performance management specialist helping the organization employees create compelling FY26 priorities with ABCD reflections. Your goal is to generate 2-3 high-quality priorities that will position the user for success in their annual review.
 
 CONTEXT ABOUT ACCENTURE FY26 PRIORITIES:
 -----------------------------------------
-- Every Accenture employee (all levels) must set one priority in EACH of four categories
+- Every the organization employee (all levels) must set one priority in EACH of four categories
 - The four FY26 priority categories are:
   1. Client Value Creation - How you create success for clients
   2. AI Enablement - How you use/develop AI skills and embed AI into work

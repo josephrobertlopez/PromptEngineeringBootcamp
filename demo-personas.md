@@ -9,7 +9,7 @@
 
 **Professional Background:**
 - **Role**: Delivery Lead, Financial Services Practice
-- **Experience**: 8 years at Accenture (promoted from Senior Consultant 2 years ago)
+- **Experience**: 8 years at the organization (promoted from Senior Consultant 2 years ago)
 - **Team Size**: 12 people across 3 client workstreams
 - **Location**: Chicago office, hybrid remote
 
@@ -46,7 +46,7 @@
 
 **Professional Background:**
 - **Role**: Senior Analyst, Technology Consulting
-- **Experience**: 5 years at Accenture (hired as Analyst, promoted twice)
+- **Experience**: 5 years at the organization (hired as Analyst, promoted twice)
 - **Specialization**: AI/ML, process automation, data engineering
 - **Location**: New York office, mostly on-site at client
 
@@ -85,7 +85,7 @@
 
 **Professional Background:**
 - **Role**: Associate Manager, Strategy & Consulting
-- **Experience**: 6 years at Accenture (MBA hire, promoted from Consultant)
+- **Experience**: 6 years at the organization (MBA hire, promoted from Consultant)
 - **Focus**: Digital strategy, organizational transformation, change management
 - **Location**: San Francisco office, frequent client travel
 
@@ -94,7 +94,7 @@
   - Leading cross-functional team of 8 consultants
   - Designing future-state operating model for AI-enabled customer service
   - Facilitating C-suite workshops on digital transformation strategy
-- **Research**: Contributing to Accenture's "Future of Work" thought leadership
+- **Research**: Contributing to the organization's "Future of Work" thought leadership
   - Co-authored 2 blog posts on AI impact on workforce planning
   - Presented findings at 3 industry conferences
 - **Internal**: Leading diversity & inclusion initiative for West Coast practice

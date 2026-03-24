@@ -23,7 +23,7 @@ open SESSION-2-FINAL.pptx
 
 # Option B: HTML 
 npm install -g @marp-team/marp-cli
-marp SESSION-1-FINAL.md --html --theme accenture-theme.css -o SESSION-1.html
+marp SESSION-1-FINAL.md --html --theme bootcamp-theme.css -o SESSION-1.html
 open SESSION-1.html
 ```
 
@@ -40,7 +40,7 @@ open SESSION-1.html
 ### **🎪 Core Presentations**
 - `SESSION-1-FINAL.md` - Session 1: Industry Standards + Priority Builder (60 min)
 - `SESSION-2-FINAL.md` - Session 2: Advanced Patterns + Java Demo (60 min)  
-- `accenture-theme.css` - Professional styling with automatic Accenture logo
+- `bootcamp-theme.css` - Professional styling with automatic logo
 - `images/` - 5 reliable SVG diagrams (three-approaches, foundational-patterns, etc.)
 
 ### **🎓 Facilitator Resources**
@@ -82,7 +82,7 @@ open SESSION-1.html
 
 ## 🎨 **PROFESSIONAL FEATURES**
 
-### **✅ Accenture Branding**
+### **✅ the organization Branding**
 - Automatic logo on every slide (top-right corner)
 - Corporate color scheme throughout
 - Professional typography and styling
@@ -155,7 +155,7 @@ open SESSION-1.html
 - **Action plans** for ongoing systematic application
 
 ### **Ready for Professional Delivery**
-- Internal Accenture workshops for delivery leads
+- Internal workshops for delivery leads
 - Client training with professional branding
 - Turnkey deployment by new facilitators
 - Enterprise scaling across multiple teams
@@ -166,10 +166,10 @@ open SESSION-1.html
 
 **Complete transformation** of team AI prompting from ad-hoc → systematic methodology.
 
-**Professional workshop materials** ready for immediate deployment with Accenture branding and comprehensive support.
+**Professional workshop materials** ready for immediate deployment with professional branding and comprehensive support.
 
 **Goal**: Teams leave with evaluable frameworks that scale across business and technical domains, transforming how they approach AI systematically.
 
 ---
 
-*© Accenture - Prompt Engineering Bootcamp | Version 1.0*
+*© Joey Lopez - Prompt Engineering Bootcamp | Version 1.0*

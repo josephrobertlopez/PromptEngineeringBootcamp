@@ -30,7 +30,7 @@ chmod +x generate-presentations.sh
 # PowerPoint (maximum compatibility)
 open SESSION-1-FINAL.pptx
 
-# Includes: Accenture branding, static SVG diagrams, professional styling
+# Includes: professional branding, static SVG diagrams, professional styling
 ```
 
 ### 3. **Facilitate**:
@@ -44,7 +44,7 @@ open SESSION-1-FINAL.pptx
 ## 📊 **What Your Diagrams Look Like**
 
 ### **PowerPoint Version** (If Generated):
-- **Professional vector graphics** with Accenture branding
+- **Professional vector graphics** with professional branding
 - **Interactive potential** - trace with presenter pointer
 - **Guaranteed rendering** - no technical surprises
 
